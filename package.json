@@ -1,0 +1,20 @@
+{
+  "name": "phishing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "browserify-fs": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify file.js -o build.js",
+    "watch": "watchify file.js -o build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anonymous",
+  "license": "ISC"
+}
