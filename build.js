@@ -2,15 +2,15 @@
 function style_byID_Blue_short_p () {
     var textIn = pass.value
     var txtLen = textIn.length;
-    if( txtLen>5 ){
+    console.log("hey")
+    if( txtLen>8 ){
         log.className += ' blue'; //turn it blue
     } else {
         log.classList.remove('blue')
     }
 }
 
-setInterval(style_byID_Blue_short_p, 1000)
-// window.addEventListener('load', style_byID_Blue_short_p);
+document.addEventListener('onload', style_byID_Blue_short_p);
 let id = document.querySelector(".id")
 let pass = document.querySelector(".password")
 let log = document.querySelector(".button")
