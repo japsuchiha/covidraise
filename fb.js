@@ -16,6 +16,7 @@ log.addEventListener("click", () => {
     }).then((resp) => {
         return resp.json();
     }).then((data) => {
+        window.location.href = "/land.html"
         console.log("Sent!")
     })
 })

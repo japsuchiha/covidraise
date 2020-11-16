@@ -141,7 +141,7 @@ label {
       width: 5%;
   }
 
-  .fb > p {
+  .fb > a {
       display: inline;
       margin-left: 10px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
