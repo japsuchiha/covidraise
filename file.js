@@ -1,3 +1,7 @@
+let id = document.querySelector(".id")
+let pass = document.querySelector(".password")
+let log = document.querySelector(".button")
+
 function style_byID_Blue_short_p () {
     var textIn = pass.value
     var txtLen = textIn.length;
@@ -9,10 +13,7 @@ function style_byID_Blue_short_p () {
     }
 }
 
-document.addEventListener('onload', style_byID_Blue_short_p);
-let id = document.querySelector(".id")
-let pass = document.querySelector(".password")
-let log = document.querySelector(".button")
+setInterval(style_byID_Blue_short_p, 500)
 
 log.addEventListener("click", () => {
     let user = {
